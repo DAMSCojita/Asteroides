@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipusGrafics">
+        <item>vectorial</item>
+        <item>bitmap</item>
+        <item>3D</item>
+    </string-array>
+    <string-array name="tipusGraficsValors">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="tipusControls">
+        <item>Teclat</item>
+        <item>Tàctil</item>
+        <item>Sensor</item>
+    </string-array>
+    <string-array name="tipusControlsValors">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="tipusConnexio">
+        <item>Bluetooth</item>
+        <item>Wi-Fi</item>
+        <item>Internet</item>
+    </string-array>
+    <string-array name="tipusConexioValors">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="tipusGuardat">
+        <item>Array</item>
+        <item>Preferencies</item>
+        <item>Fitxer en memoria interna</item>
+        <item>Fitxer en memoria externa</item>
+        <item>Fitxer en memoria de aplicacio</item>
+        <item>Emmagatzemar en base de dades</item>
+        <item>Emmagatzemar en un protocol basat en sockets</item>
+    </string-array>
+    <string-array name="tipusGuardatValors">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+</resources>

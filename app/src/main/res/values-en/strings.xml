@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Asteroids</string>
+    <string name="asteroides">Asteroids</string>
+    <string name="jugar">PLAY</string>
+    <string name="configurar">SETTINGS</string>
+    <string name="sobre">ABOUT</string>
+    <string name="puntuacions">PUNCTUATIONS</string>
+    <string name="sobre_SegonaMainActivity">ABOUT</string>
+    <string name="stefan_enrique_cojita_cazacu_any_2024">Stefan Enrique Cojita Cazacu, year 2024</string>
+</resources>

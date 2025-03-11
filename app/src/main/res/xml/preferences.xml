@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencies_principal" >
+    <CheckBoxPreference
+        android:key="musica"
+        android:title="Reproduir música"
+        android:summary="Es reprodueix música de fons"/>
+    <ListPreference
+        android:key="grafics"
+        android:title="Tipus de Gràfics"
+        android:summary="Escollir la representació de gràfics"
+        android:entries="@array/tipusGrafics"
+        android:entryValues="@array/tipusGraficsValors"
+        android:defaultValue="1"/>
+    <EditTextPreference
+        android:key="fragments"
+        android:title="Número de Fragments"
+        android:summary="En quants trossos es divideix un asteroide"
+        android:inputType="number"
+        android:defaultValue="3"/>
+    <ListPreference
+        android:key="sensors"
+        android:title="Sensor"
+        android:summary="Escollir el sensor per jugar"
+        android:entries="@array/tipusControls"
+        android:entryValues="@array/tipusControlsValors"/>
+    <ListPreference
+        android:key="guardar"
+        android:title="Tipus d'Emmagatzematge"
+        android:summary="Escollir on es guarden les puntuacions"
+        android:entries="@array/tipusGuardat"
+        android:entryValues="@array/tipusGuardatValors"/>
+    <CheckBoxPreference
+        android:key="teletransportacio"
+        android:title="Activar Teletransportació"
+        android:summary="Escollir si es vol activar la teletransportació per jugar"/>
+    <PreferenceCategory android:title="Mode multijugador">
+        <CheckBoxPreference
+            android:title="Activar multijugador"/>
+        <EditTextPreference
+            android:title="Màxim de jugadors"/>
+        <ListPreference
+            android:key="tipus_de_connexio"
+            android:title="Tipus de connexió"
+            android:entries="@array/tipusConnexio"
+            android:entryValues="@array/tipusConexioValors"
+            android:defaultValue="1"/>
+    </PreferenceCategory>
+</PreferenceScreen>
